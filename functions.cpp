@@ -7,11 +7,11 @@ std::string_view convertPlural(Items::Types types)  // Prural conversion type SV
 	case Items::healthPotion:	return "Health Potions";
 	case Items::manaPotion:		return "Mana Potions";
 	case Items::energyPotion:	return "Energy Potions";
-	case Items::sword:		return "Swords";
-	case Items::shield:		return "Shields";
-	case Items::bow:		return "Bows";
-	case Items::arrows:		return "Arrows";
-	default:			return "Invalid Item";
+	case Items::sword:			return "Swords";
+	case Items::shield:			return "Shields";
+	case Items::bow:			return "Bows";
+	case Items::arrows:			return "Arrows";
+	default:					return "Invalid Item";
 	}
 }
 
