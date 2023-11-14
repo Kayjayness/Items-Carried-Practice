@@ -1,4 +1,4 @@
-#include <iostream>
+#include "functions.h"
 
 // Practice assignment (Vector practice)
 //
@@ -11,5 +11,11 @@
 
 int main()
 {
+	std::vector<int> playerInventory{ 3,3,2,1,1,1,10 };
+	assert(std::ssize(playerInventory) == Items::MaxItems && "Vector Length does not match number of item types");
+
+	printIndividualItems(playerInventory);
+	printTotalItems(playerInventory);
+	
 	return 0;
 }

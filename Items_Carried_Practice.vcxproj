@@ -131,10 +131,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="functions.cpp" />
     <ClCompile Include="itemsCarried.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="itemsCarried.h" />
+    <ClInclude Include="enum.h" />
+    <ClInclude Include="functions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
